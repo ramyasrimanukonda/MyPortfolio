@@ -1,1 +1,55 @@
+/* Professional Developer Theme Reset */
+:root {
+  --bg-dark: #0f172a;       /* Deep professional dark blue-grey background */
+  --bg-card: #1e293b;       /* Slightly lighter card background */
+  --text-main: #f8fafc;     /* Clean crisp white text */
+  --text-muted: #94a3b8;    /* Soft grey for paragraph text */
+  --accent: #a5b4fc;        /* Light indigo/purple accents matching your buttons */
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* App container layout constraint */
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Typography Enhancements */
+h1, h2, h3 {
+  color: var(--text-main);
+}
+
+/* Global Section Spacing and Layout alignment fixes */
+section {
+  padding: 60px 0;
+  width: 100%;
+}
+
+a {
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Ensure sections match the theme correctly */
+#home, #about, #projects, #credentials, #contact {
+  color: var(--text-main);
+}
