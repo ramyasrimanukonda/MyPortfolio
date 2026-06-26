@@ -6,10 +6,10 @@ function About() {
   const coreSubjects = ["Object-Oriented Programming (OOPS) in Java", "Operating Systems (OS)", "Database Management Systems (DBMS)"];
   
   const codingProfiles = [
-    { name: "LeetCode", url: "https://leetcode.com/Ramya_Sri" },
-    { name: "Codeforces", url: "https://codeforces.com/profile/Manukonda_Ramya_Sri" },
-    { name: "CodeChef", url: "https://www.codechef.com/users/Manukonda_Ramya_Sri" },
-    { name: "HackerRank", url: "https://www.hackerrank.com/profile/Ramya_Sri_Manukonda" }
+    { name: "LeetCode", url: "https://leetcode.com/u/RamyaSri_M_4236/" },
+    { name: "Codeforces", url: "https://codeforces.com/profile/ManukondaRamyaSri" },
+    { name: "CodeChef", url: "https://www.codechef.com/users/charm_world_54" },
+    { name: "HackerRank", url: "https://www.hackerrank.com/profile/24b01a0591" }
   ];
 
   const educationTimeline = [
@@ -17,7 +17,7 @@ function About() {
       degree: "B.Tech in Computer Science and Engineering",
       institution: "Shri Vishnu Engineering College for Women, Bhimavaram",
       duration: "2024 – Present",
-      grade: "CGPA: 9.72"
+      grade: "CGPA: 9.67"
     },
     {
       degree: "Intermediate (State Board)",
