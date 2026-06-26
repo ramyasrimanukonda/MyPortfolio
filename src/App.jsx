@@ -6,7 +6,7 @@ import Projects from './sections/Projects';
 import Credentials from './sections/Credentials';
 import Contact from './sections/Contact';
 import Footer from './components/Footer';
-
+import Leadership from './sections/Leadership';
 function App() {
   return (
     <div className="app-container">
@@ -16,7 +16,7 @@ function App() {
         <About />
         <Projects />
         <Credentials />
-        <Leadership.jsx/>
+        <Leadership/>
         <Contact />
       </main>
       <Footer />
