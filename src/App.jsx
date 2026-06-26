@@ -16,6 +16,7 @@ function App() {
         <About />
         <Projects />
         <Credentials />
+        <Leadership.jsx/>
         <Contact />
       </main>
       <Footer />
